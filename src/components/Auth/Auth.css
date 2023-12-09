@@ -1,0 +1,220 @@
+.login {
+    width: 100%;
+    margin: 84px 0 15px 0;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .title_login {
+    font-size: 27px;
+    line-height: 34px;
+    text-align: center;
+    width: 100%;
+    margin: 27px 0 27px 0;
+    color: #423f3f;
+    position: relative;
+    height: 40px;
+}
+
+.login .title_login::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 40px;
+    background-color: #423f3f;
+    bottom: 0;
+    left: 230px;
+}
+
+.login input[type="email"] {
+    width: 500px;
+    height: 52px;
+    border: 1px solid #d7d6d6;
+    padding: 15px 26px 15px 26px;
+    margin-bottom: 20px;
+    min-height: 32px;
+    max-width: 100%;
+    font-size: 15px;
+}
+
+.login input[type="password"] {
+    width: 500px;
+    height: 52px;
+    border: 1px solid #d7d6d6;
+    padding: 15px 26px 15px 26px;
+    margin-bottom: 20px;
+    min-height: 32px;
+    max-width: 100%;
+    font-size: 15px;
+}
+
+.login .forgot_pw {
+    text-align: center;
+}
+
+.login .forgot_pw a {
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #ef9a9a;
+    text-decoration: none;
+    border-bottom: 1px solid #ef9a9a;
+}
+
+.login .forgot_pw a:hover {
+    border-bottom: 1px solid #423f3f;
+    color: #423f3f;
+}
+
+.login input[type="submit"] {
+    width: 500px;
+    height: 54px;
+    border: 1px solid #423f3f;
+    margin: 50px 0 20px 0;
+    padding: 18px 30px 18px 30px;
+    color: #ffffff;
+    background: #423f3f;
+    vertical-align: top;
+    white-space: pre;
+    word-spacing: 0px;
+}
+
+.login input[type="submit"]:hover {
+    background: none;
+    color: #423f3f;
+}
+
+.login .create_acc {
+    text-align: center;
+    margin: 10px 0 15px 0;
+}
+
+.login .create_acc a {
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #ef9a9a;
+    text-decoration: none;
+    border-bottom: 1px solid #ef9a9a;
+}
+
+.login .create_acc a:hover {
+    border-bottom: 1px solid #423f3f;
+    color: #423f3f;
+}
+
+.login .return_home {
+    text-align: center;
+}
+
+.login .return_home a {
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #ef9a9a;
+    text-decoration: none;
+    border-bottom: 1px solid #ef9a9a;
+}
+
+.login .return_home a:hover {
+    border-bottom: 1px solid #423f3f;
+    color: #423f3f;
+}
+
+/* SIGUP */
+.sigup {
+    width: 100%;
+    margin: 84px 0 15px 0;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sigup .title_sigup {
+    font-size: 27px;
+    line-height: 34px;
+    text-align: center;
+    width: 100%;
+    margin: 27px 0 27px 0;
+    color: #423f3f;
+    position: relative;
+    height: 40px;
+}
+
+.sigup .title_sigup::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 40px;
+    background-color: #423f3f;
+    bottom: 0;
+    left: 230px;
+}
+
+.sigup input[type="text"] {
+    width: 500px;
+    height: 52px;
+    border: 1px solid #d7d6d6;
+    padding: 15px 26px 15px 26px;
+    margin-bottom: 20px;
+    min-height: 32px;
+    max-width: 100%;
+    font-size: 15px;
+}
+
+.sigup input[type="email"] {
+    width: 500px;
+    height: 52px;
+    border: 1px solid #d7d6d6;
+    padding: 15px 26px 15px 26px;
+    margin-bottom: 20px;
+    min-height: 32px;
+    max-width: 100%;
+    font-size: 15px;
+}
+
+.sigup input[type="password"] {
+    width: 500px;
+    height: 52px;
+    border: 1px solid #d7d6d6;
+    padding: 15px 26px 15px 26px;
+    margin-bottom: 20px;
+    min-height: 32px;
+    max-width: 100%;
+    font-size: 15px;
+}
+
+.sigup input[type="submit"] {
+    width: 500px;
+    height: 54px;
+    border: 1px solid #423f3f;
+    margin: 20px 0 20px 0;
+    padding: 18px 30px 18px 30px;
+    color: #ffffff;
+    background: #423f3f;
+    vertical-align: top;
+    white-space: pre;
+    word-spacing: 0px;
+}
+
+.sigup input[type="submit"]:hover {
+    background: none;
+    color: #423f3f;
+}
+
+.sigup .return_home {
+    text-align: center;
+}
+
+.sigup .return_home a {
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #ef9a9a;
+    text-decoration: none;
+    border-bottom: 1px solid #ef9a9a;
+}
+
+.sigup .return_home a:hover {
+    border-bottom: 1px solid #423f3f;
+    color: #423f3f;
+}
